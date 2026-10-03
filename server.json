@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.scrapingbot/mcp",
+  "name": "io.scrapingbot/scrapingbot",
   "title": "ScrapingBot",
   "description": "Public web data for AI agents: scrape any page, plus Google, TikTok, Instagram and Amazon as JSON.",
   "version": "1.0.0",
