@@ -1,0 +1,33 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.scrapingbot/mcp",
+  "title": "ScrapingBot",
+  "description": "Public web data for AI agents: scrape any page, plus Google, TikTok, Instagram and Amazon as JSON.",
+  "version": "1.0.0",
+  "websiteUrl": "https://scrapingbot.io/mcp?utm_source=mcp_registry&utm_medium=registry&utm_campaign=server_json",
+  "repository": {
+    "url": "https://github.com/mike-scrapingbot/scrapingbot",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://scrapingbot.io/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://scrapingbot.io/api/mcp",
+      "headers": [
+        {
+          "name": "x-api-key",
+          "description": "Your ScrapingBot API key, from https://scrapingbot.io/dashboard/api-keys (100 free credits on sign-up).",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
